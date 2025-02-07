@@ -1,0 +1,39 @@
+.task-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: var(--background-color);
+    gap: 10px;
+}
+
+.task-item-info {
+    margin-right: auto;
+    text-align: left;
+}
+
+.task-item-name.completed::before {
+    content: "✓ ";
+}
+
+.task-item-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.task-item-actions button {
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    text-wrap: nowrap;
+}
+
+.task-item-actions button:hover {
+    filter: brightness(0.9);
+}
+
+.task-item-delete-button {
+    background-color: red;
+}
