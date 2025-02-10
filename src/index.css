@@ -16,14 +16,3 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --color: #213547;
-    --background-color: #ffffff;
-    --secondary-color: #294359;
-    color: var(--color);
-    background-color: var(--background-color);
-  }
-
-}
